@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div className="app-header">
-        <h1> Notes List</h1>
+        <h2>🔥 Absolutely Lit Notes App 🔥</h2>
     </div>
   )
 }

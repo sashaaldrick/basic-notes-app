@@ -65,16 +65,16 @@ const Note = (props) => {
     <div className="note">
       <div className="note-header">
         <h3>
-          <Link to="/notes">
+          <Link to="/">
             <ArrowLeft onClick={handleSubmit} />
           </Link>
         </h3>
         {id !== "new" ? (
-          <Link to="/notes">
+          <Link to="/">
             <button onClick={deleteNote}>Delete</button>
           </Link>
         ) : (
-          <Link to="/notes">
+          <Link to="/">
             <button onClick={handleSubmit}>Done</button>
           </Link>
         )}
